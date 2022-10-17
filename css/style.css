@@ -11,6 +11,7 @@ body {
   font-family: sans-serif;
 }
 
+/* header  */
 header {
   padding: 1.5rem;
 }
@@ -33,6 +34,7 @@ nav .logo a {
   font-weight: bold;
 }
 
+/* main  */
 main {
   display: flex;
   justify-content: center;
@@ -56,3 +58,30 @@ main .left h1 {
   font-size: 3rem;
   margin-bottom: 2rem;
 }
+
+/* section gallery  */
+
+.gallery {
+  margin-bottom: 4rem;
+}
+
+.gallery h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.gallery img {
+  width: 20%;
+}
+
+.row-1 {
+  margin-bottom: 1.5rem;
+}
+.row-1,
+.row-2 {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+/* footer  */
