@@ -85,3 +85,15 @@ main .left h1 {
 }
 
 /* footer  */
+
+footer {
+  padding: 2rem 10%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+}
+
+footer .footer-list {
+  display: flex;
+  gap: 2rem;
+}
