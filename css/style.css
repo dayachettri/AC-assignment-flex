@@ -59,6 +59,10 @@ main .left h1 {
   margin-bottom: 2rem;
 }
 
+main .left p {
+  text-align: justify;
+}
+
 /* section gallery  */
 
 .gallery {
